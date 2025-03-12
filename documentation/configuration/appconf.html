@@ -3359,6 +3359,12 @@ All of these parameters are grouped under the <code>conductor.app</code> namespa
 <td style="text-align: left;">Default is 30 seconds</td>
 </tr>
 <tr>
+<td style="text-align: left;">maxPostponeDurationSeconds</td>
+<td style="text-align: left;">Duration</td>
+<td style="text-align: left;">The maximum timeout duration to set when a workflow with running task is pushed to the decider queue. Example: <code>30m</code> or <code>1h</code></td>
+<td style="text-align: left;">Default is 3600 seconds</td>
+</tr>
+<tr>
 <td style="text-align: left;">sweeperThreadCount</td>
 <td style="text-align: left;">int</td>
 <td style="text-align: left;">The number of threads to use for background sweeping on active workflows. Example: <code>8</code> if there are 4 processors (2x4)</td>
